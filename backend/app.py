@@ -9,7 +9,6 @@ from routes.auth import auth_bp
 from routes.measurement import measurement_bp
 from routes.prediction import prediction_bp
 
-
 def create_app():
     app = Flask(__name__)
     app.config.from_object(Config)
