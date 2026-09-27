@@ -1,5 +1,6 @@
 venv/
 __pycache__/
+
 *.pyc
 .env
 
@@ -9,3 +10,12 @@ runs/
 
 # Test images
 bus.jpg
+*.py[cod]
+*.db
+*.sqlite
+*.sqlite3
+backend/uploads/*
+!backend/uploads/.gitkeep
+.env
+.vscode/
+
