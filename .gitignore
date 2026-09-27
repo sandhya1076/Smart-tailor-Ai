@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.env
+
+# YOLO files
+runs/
+*.pt
+
+# Test images
+bus.jpg
